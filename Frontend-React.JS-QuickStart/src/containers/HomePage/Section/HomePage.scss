@@ -1,0 +1,186 @@
+.slick-disabled {
+    display: none !important;
+}
+
+.section-share {
+    &.section-medical-facility {
+        background: #f5f5f5;
+
+    }
+
+    &.section-Handbooks {
+        background: #f5f5f5;
+    }
+
+    &.section-Abouts {
+        height: 500px !important;
+
+    }
+
+    .section-body {
+
+        .section-customize {
+            .bg-image {
+                width : 278px;
+                height: 150px;
+
+                background-position: center center;
+                background-repeat  : no-repeat;
+                background-size    : cover;
+                background-color   : #eee;
+
+                &.section-specialty {
+                    // background-image: url('../../../assets/specialty/co-xuong-khop.jpg');
+                }
+
+                &.section-medical-facility {
+                    // background-image: url('../../../assets/medical-facility/logo-y-duoc-1.jpg');
+                    background-size: contain;
+                }
+
+                &.section-outstanding-doctor {
+                    // background-image: url('../../../assets/outstanding-doctor/medlatec.png');
+                    width        : 120px;
+                    height       : 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-Handbook {
+                    background-image: url('../../../assets/HandBook/phuong-phap-nang-co-mat.png');
+                }
+
+
+
+            }
+
+            h3 {
+                font-size: 15px;
+            }
+
+
+        }
+
+
+
+
+        .img-customize {
+            height: 100%;
+        }
+
+    }
+
+}
+
+.section-share {
+    height: 330px;
+
+    .section-container {
+        margin        : 0 180px;
+        display       : flex;
+        flex-direction: column;
+
+        .section-header {
+            height       : 60px;
+            margin-bottom: 30px;
+            padding-top  : 30px;
+
+            .title-section {
+                font-size  : 22px;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                float         : right;
+                padding       : 10px 15px;
+                border        : none;
+                outline       : none;
+                display       : block;
+                background    : #ebebeb;
+                color         : black;
+                cursor        : pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    background: #f7d800;
+                    color     : #fff;
+                }
+            }
+        }
+
+
+
+
+    }
+}
+
+.slick-prev {
+    left      : -10px !important;
+    z-index   : 1000;
+    height    : 48px !important;
+    width     : 44px !important;
+    background: #fff !important;
+    border    : 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7 !important;
+    }
+}
+
+
+.slick-next {
+    right     : -10px !important;
+    z-index   : 1000;
+    height    : 48px !important;
+    width     : 44px !important;
+    background: #fff !important;
+    border    : 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7 !important;
+    }
+}
+
+.slick-next::before,
+.slick-prev::before {
+    font-family: FontAwesome !important;
+    color      : red !important;
+}
+
+.section-outstanding-doctor {
+    .outer-bg {
+        display        : flex;
+        justify-content: center;
+        margin-bottom  : 10px;
+    }
+}
+
+.section-customize {
+    padding: 5px;
+    cursor : pointer;
+
+    .customize-border {
+        border : 1px solid #f5f5f5;
+        padding: 20px;
+    }
+}
+
+.home-footer {
+    text-align : center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: unset;
+    }
+
+
+}
+
+.section-Abouts {
+    padding: 0 180px;
+
+    .section-about-header {
+        padding    : 20px 10px;
+        font-size  : 22px;
+        font-weight: 600;
+    }
+}
